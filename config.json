@@ -2,20 +2,20 @@
     "firstrun": "true",
     "prefix": "!",
     "main": {
-        "token": "",
-        "userid": "",
-        "commandschannelid": "",
-        "huntbotchannelid": "",
-        "owodmchannelid": "",
-        "gamblechannelid": "",
-        "autoquestchannelid": "",
+        "token": "MTM3NzUyMDg5NTQxNjg2NDg5Mg.G16FlM.BqYS6bAGpDeRaR1ZN65ejDmQY3NrNYx8tk--kw",
+        "userid": "1377520895416864892",
+        "commandschannelid": "1411650792821227592",
+        "huntbotchannelid": "1411650407981383771",
+        "owodmchannelid": "408785106942164992",
+        "gamblechannelid": "1411650947696033923",
+        "autoquestchannelid": "1411651018772709447",
         "autostart": false,
 
         "commands": {
             "hunt": true,
             "battle": true,
-            "pray": false,
-            "curse": true,
+            "pray": true,
+            "curse": false,
             "huntbot": {
                 "enable": true,
                 "maxtime": 10,
@@ -68,18 +68,18 @@
         "maximum_gem_rarity": "Mythical"
     },
     "settings": {
-        "owoprefix": "owo",
+        "owoprefix": "o",
         "discordrpc": false,
         "chatfeedback": true,
         "autophrases": true,
-        "autoresume": false,
+        "autoresume": true,
         "autojoingiveaways": false,
 
         "checklist": {
             "types": {
                 "daily": true,
-                "cookie": false,
-                "vote": false
+                "cookie": true,
+                "vote": true
             }
         },
 
@@ -120,12 +120,12 @@
             "autosolve": true,
             "autosolve_thread": 1,
             "alerttype": {
-                "webhook": true,
+                "webhook": false,
                 "webhookurl": "xxx",
                 "desktop": {
                     "force": true,
                     "notification": true,
-                    "prompt": true
+                    "prompt": false
                 },
                 "termux": {
                     "notification": true,
@@ -142,8 +142,8 @@
             "sacrifice": false
         },
         "animaltype": {
-            "common": false,
-            "uncommon": false,
+            "common": true,
+            "uncommon": true,
             "rare": false,
             "epic": false,
             "mythical": false,
